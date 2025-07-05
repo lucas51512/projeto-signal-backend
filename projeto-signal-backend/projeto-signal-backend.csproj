@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>projeto_signal_backend</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="src\application\common\" />
+      <Folder Include="src\application\interfaces\" />
+      <Folder Include="src\domain\entities\" />
+      <Folder Include="src\domain\valueObjects\" />
+      <Folder Include="src\infra\configuration\" />
+      <Folder Include="src\infra\externalServices\" />
+      <Folder Include="src\infra\persistence\" />
+      <Folder Include="src\webApi\controllers\" />
+      <Folder Include="src\webApi\extensions\" />
+      <Folder Include="src\webApi\filters\" />
+      <Folder Include="tests\" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\bin\Debug\net9.0\projeto-signal-backend.exe
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\bin\Debug\net9.0\projeto-signal-backend.deps.json
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\bin\Debug\net9.0\projeto-signal-backend.runtimeconfig.json
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\bin\Debug\net9.0\projeto-signal-backend.dll
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\bin\Debug\net9.0\projeto-signal-backend.pdb
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\obj\Debug\net9.0\projeto-signal-backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\obj\Debug\net9.0\projeto-signal-backend.AssemblyInfoInputs.cache
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\obj\Debug\net9.0\projeto-signal-backend.AssemblyInfo.cs
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\obj\Debug\net9.0\projeto-signal-backend.csproj.CoreCompileInputs.cache
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\obj\Debug\net9.0\projeto-signal-backend.dll
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\obj\Debug\net9.0\refint\projeto-signal-backend.dll
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\obj\Debug\net9.0\projeto-signal-backend.pdb
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\obj\Debug\net9.0\projeto-signal-backend.genruntimeconfig.cache
+C:\projetos\pessoal\projeto-signal-backend\projeto-signal-backend\obj\Debug\net9.0\ref\projeto-signal-backend.dll
