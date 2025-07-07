@@ -12,4 +12,16 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\application\AuthService.Application.csproj" />
+    <ProjectReference Include="..\domain\AuthService.Domain.csproj" />
+    <ProjectReference Include="..\infra\AuthService.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Filters\" />
+  </ItemGroup>
+
 </Project>

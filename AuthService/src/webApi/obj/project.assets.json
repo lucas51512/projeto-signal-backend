@@ -98,6 +98,36 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "AuthService.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/AuthService.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthService.Application.dll": {}
+        }
+      },
+      "AuthService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/AuthService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthService.Domain.dll": {}
+        }
+      },
+      "AuthService.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/AuthService.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthService.Infra.dll": {}
+        }
       }
     }
   },
@@ -239,10 +269,28 @@
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "AuthService.Application/1.0.0": {
+      "type": "project",
+      "path": "../application/AuthService.Application.csproj",
+      "msbuildProject": "../application/AuthService.Application.csproj"
+    },
+    "AuthService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../domain/AuthService.Domain.csproj",
+      "msbuildProject": "../domain/AuthService.Domain.csproj"
+    },
+    "AuthService.Infra/1.0.0": {
+      "type": "project",
+      "path": "../infra/AuthService.Infra.csproj",
+      "msbuildProject": "../infra/AuthService.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "AuthService.Application >= 1.0.0",
+      "AuthService.Domain >= 1.0.0",
+      "AuthService.Infra >= 1.0.0",
       "Autofac >= 8.3.0",
       "Autofac.Extensions.DependencyInjection >= 10.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.6"
@@ -279,7 +327,17 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\application\\AuthService.Application.csproj": {
+              "projectPath": "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\application\\AuthService.Application.csproj"
+            },
+            "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\domain\\AuthService.Domain.csproj": {
+              "projectPath": "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\domain\\AuthService.Domain.csproj"
+            },
+            "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\infra\\AuthService.Infra.csproj": {
+              "projectPath": "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\infra\\AuthService.Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

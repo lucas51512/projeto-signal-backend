@@ -1,0 +1,12 @@
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\bin\Debug\net9.0\SharedKernel.deps.json
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\bin\Debug\net9.0\SharedKernel.dll
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\bin\Debug\net9.0\SharedKernel.pdb
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\obj\Debug\net9.0\SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\obj\Debug\net9.0\SharedKernel.AssemblyInfoInputs.cache
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\obj\Debug\net9.0\SharedKernel.AssemblyInfo.cs
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\obj\Debug\net9.0\SharedKernel.csproj.CoreCompileInputs.cache
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\obj\Debug\net9.0\SharedKernel.sourcelink.json
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\obj\Debug\net9.0\SharedKernel.dll
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\obj\Debug\net9.0\refint\SharedKernel.dll
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\obj\Debug\net9.0\SharedKernel.pdb
+C:\projetos\projeto-signal\projeto-signal-backend\SharedKernel\src\shared\obj\Debug\net9.0\ref\SharedKernel.dll

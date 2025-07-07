@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoService.Infra", "src\i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoService.WebApi", "src\webapi\VideoService.WebApi.csproj", "{E3C66F98-891B-49E6-9D9F-A8C66A52C28A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "..\SharedKernel\src\shared\SharedKernel.csproj", "{76F39225-08CB-4779-9FE6-30226462946F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,18 @@ Global
 		{E3C66F98-891B-49E6-9D9F-A8C66A52C28A}.Release|x64.Build.0 = Release|Any CPU
 		{E3C66F98-891B-49E6-9D9F-A8C66A52C28A}.Release|x86.ActiveCfg = Release|Any CPU
 		{E3C66F98-891B-49E6-9D9F-A8C66A52C28A}.Release|x86.Build.0 = Release|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Debug|x64.Build.0 = Debug|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Debug|x86.Build.0 = Debug|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Release|x64.ActiveCfg = Release|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Release|x64.Build.0 = Release|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Release|x86.ActiveCfg = Release|Any CPU
+		{76F39225-08CB-4779-9FE6-30226462946F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,6 +11,7 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory(cb =>
     cb.RegisterAssemblyModules(typeof(Program).Assembly);
 }))
 .ConfigureServices(services => services.AddAutofac());
+
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
@@ -27,6 +28,8 @@ var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+app.MapGet("/", () => "Hello World!");
 
 app.MapGet("/weatherforecast", () =>
 {
