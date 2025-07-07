@@ -1,0 +1,12 @@
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\bin\Debug\net9.0\AuthService.Infra.deps.json
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\bin\Debug\net9.0\AuthService.Infra.dll
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\bin\Debug\net9.0\AuthService.Infra.pdb
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\obj\Debug\net9.0\AuthService.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\obj\Debug\net9.0\AuthService.Infra.AssemblyInfoInputs.cache
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\obj\Debug\net9.0\AuthService.Infra.AssemblyInfo.cs
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\obj\Debug\net9.0\AuthService.Infra.csproj.CoreCompileInputs.cache
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\obj\Debug\net9.0\AuthService.Infra.sourcelink.json
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\obj\Debug\net9.0\AuthService.Infra.dll
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\obj\Debug\net9.0\refint\AuthService.Infra.dll
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\obj\Debug\net9.0\AuthService.Infra.pdb
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\infra\obj\Debug\net9.0\ref\AuthService.Infra.dll

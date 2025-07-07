@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sGgyTdjXGw0=",
+  "dgSpecHash": "QIh9GcbRMmM=",
   "success": true,
-  "projectFilePath": "C:\\projetos\\projeto-signal\\projeto-signal-backend\\src\\shared\\SharedKernel.csproj",
+  "projectFilePath": "C:\\projetos\\projeto-signal\\projeto-signal-backend\\SharedKernel\\src\\shared\\SharedKernel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

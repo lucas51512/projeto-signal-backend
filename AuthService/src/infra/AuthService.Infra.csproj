@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="ExternalServices\" />
+    <Folder Include="Persistence\" />
+  </ItemGroup>
+
 </Project>

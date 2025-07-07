@@ -1,0 +1,12 @@
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\bin\Debug\net9.0\AuthService.Domain.deps.json
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\bin\Debug\net9.0\AuthService.Domain.dll
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\bin\Debug\net9.0\AuthService.Domain.pdb
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\obj\Debug\net9.0\AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\obj\Debug\net9.0\AuthService.Domain.AssemblyInfoInputs.cache
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\obj\Debug\net9.0\AuthService.Domain.AssemblyInfo.cs
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\obj\Debug\net9.0\AuthService.Domain.csproj.CoreCompileInputs.cache
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\obj\Debug\net9.0\AuthService.Domain.sourcelink.json
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\obj\Debug\net9.0\AuthService.Domain.dll
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\obj\Debug\net9.0\refint\AuthService.Domain.dll
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\obj\Debug\net9.0\AuthService.Domain.pdb
+C:\projetos\projeto-signal\projeto-signal-backend\AuthService\src\domain\obj\Debug\net9.0\ref\AuthService.Domain.dll
