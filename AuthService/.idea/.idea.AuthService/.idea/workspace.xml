@@ -13,54 +13,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d9797b6-f020-4d9f-992a-9638a9cce9df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AuthService/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AuthService/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AuthService/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AuthService/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AuthService/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthService.WebApi/AuthService.WebApi.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthService.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Entities/Address.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Entities/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Entities/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webApi/Controllers/AddressController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webApi/Controllers/PersonController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webApi/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webApi/Services/AddressService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webApi/Services/PersonService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webApi/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AuthService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AuthService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.Tests/obj/Application.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application.Tests/obj/Application.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.Tests/obj/Debug/net9.0/Application.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application.Tests/obj/Debug/net9.0/Application.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.Tests/obj/Debug/net9.0/Application.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application.Tests/obj/Debug/net9.0/Application.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.Tests/obj/Debug/net9.0/Application.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application.Tests/obj/Debug/net9.0/Application.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.Tests/obj/Debug/net9.0/Application.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application.Tests/obj/Debug/net9.0/Application.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infra.Tests/obj/Debug/net9.0/Infra.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infra.Tests/obj/Debug/net9.0/Infra.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infra.Tests/obj/Debug/net9.0/Infra.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infra.Tests/obj/Debug/net9.0/Infra.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infra.Tests/obj/Debug/net9.0/Infra.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infra.Tests/obj/Debug/net9.0/Infra.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infra.Tests/obj/Debug/net9.0/Infra.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infra.Tests/obj/Debug/net9.0/Infra.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infra.Tests/obj/Infra.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infra.Tests/obj/Infra.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infra.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infra.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infra.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infra.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infra.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infra.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Tests/obj/Debug/net9.0/WebApi.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Tests/obj/Debug/net9.0/WebApi.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Tests/obj/Debug/net9.0/WebApi.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Tests/obj/Debug/net9.0/WebApi.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Tests/obj/Debug/net9.0/WebApi.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Tests/obj/Debug/net9.0/WebApi.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Tests/obj/Debug/net9.0/WebApi.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Tests/obj/Debug/net9.0/WebApi.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Tests/obj/WebApi.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Tests/obj/WebApi.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Tests/obj/WebApi.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Tests/obj/WebApi.Tests.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Tests/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/AuthService.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/AuthService.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/obj/AuthService.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/obj/AuthService.Application.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/obj/Debug/net9.0/AuthService.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/obj/Debug/net9.0/AuthService.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/obj/Debug/net9.0/AuthService.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/obj/Debug/net9.0/AuthService.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domain/AuthService.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/AuthService.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Entities/Address.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Entities/Person.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Entities/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Class1.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domain/obj/Debug/net9.0/AuthService.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/obj/Debug/net9.0/AuthService.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domain/obj/Debug/net9.0/AuthService.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/obj/Debug/net9.0/AuthService.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infra/AuthService.Infra.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/AuthService.Infra.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infra/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infra/obj/AuthService.Infra.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/obj/AuthService.Infra.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infra/obj/Debug/net9.0/AuthService.Infra.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/obj/Debug/net9.0/AuthService.Infra.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infra/obj/Debug/net9.0/AuthService.Infra.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/obj/Debug/net9.0/AuthService.Infra.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infra/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infra/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infra/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infra/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infra/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webApi/AuthService.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/AuthService.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/bin/Debug/net9.0/AuthService.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/bin/Debug/net9.0/AuthService.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/bin/Debug/net9.0/AuthService.WebApi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/bin/Debug/net9.0/AuthService.WebApi.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/bin/Debug/net9.0/AuthService.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/bin/Debug/net9.0/AuthService.WebApi.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webApi/obj/AuthService.WebApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/AuthService.WebApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webApi/obj/AuthService.WebApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/AuthService.WebApi.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/AuthService.WebApi.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/ref/AuthService.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/ref/AuthService.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/refint/AuthService.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/refint/AuthService.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webApi/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/webApi/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SharedKernel/src/shared/obj/SharedKernel.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedKernel/src/shared/obj/SharedKernel.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SharedKernel/src/shared/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedKernel/src/shared/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SharedKernel/src/shared/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedKernel/src/shared/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VideoService/VideoService.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoService/VideoService.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,22 +106,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.AuthService.WebApi: https.executor": "Run",
-    ".NET Launch Settings Profile.AuthService: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "auth-flux",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.AuthService.WebApi: https.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.AuthService: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;auth-flux&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AuthService.WebApi: https">
     <configuration name="AuthService: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/AuthService.WebApi/AuthService.WebApi.csproj" />
@@ -200,7 +222,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751855098898</updated>
       <workItem from="1751855100665" duration="387000" />
-      <workItem from="1751855594326" duration="1066000" />
+      <workItem from="1751855594326" duration="4536000" />
     </task>
     <servers />
   </component>

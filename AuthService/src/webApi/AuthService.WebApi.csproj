@@ -9,17 +9,17 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="8.3.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\AuthService.Infra.IoC\AuthService.Infra.IoC.csproj" />
     <ProjectReference Include="..\application\AuthService.Application.csproj" />
     <ProjectReference Include="..\domain\AuthService.Domain.csproj" />
-    <ProjectReference Include="..\infra\AuthService.Infra.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Extensions\" />
     <Folder Include="Filters\" />
   </ItemGroup>

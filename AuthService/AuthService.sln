@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Application", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Domain", "src\domain\AuthService.Domain.csproj", "{4275AABF-3119-44CB-AAF6-BF94FBA8E395}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Infra", "src\infra\AuthService.Infra.csproj", "{30857B3E-377C-4C66-84A7-5C56F32FEAA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Infra.Data", "src\infra\AuthService.Infra.Data.csproj", "{30857B3E-377C-4C66-84A7-5C56F32FEAA3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.WebApi", "src\webApi\AuthService.WebApi.csproj", "{6D3511CF-8471-4E54-9BE1-B12983D5FABA}"
 EndProject
@@ -21,6 +21,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Tests", "Infra.Tests\Infra.Tests.csproj", "{DE2A764C-D23C-441B-A702-31248061F569}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Tests", "WebApi.Tests\WebApi.Tests.csproj", "{5C853E42-DC13-4091-B557-2CD7772AD590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Infra.IoC", "AuthService.Infra.IoC\AuthService.Infra.IoC.csproj", "{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,6 +130,18 @@ Global
 		{5C853E42-DC13-4091-B557-2CD7772AD590}.Release|x64.Build.0 = Release|Any CPU
 		{5C853E42-DC13-4091-B557-2CD7772AD590}.Release|x86.ActiveCfg = Release|Any CPU
 		{5C853E42-DC13-4091-B557-2CD7772AD590}.Release|x86.Build.0 = Release|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Debug|x64.Build.0 = Debug|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Debug|x86.Build.0 = Debug|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Release|x64.ActiveCfg = Release|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Release|x64.Build.0 = Release|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Release|x86.ActiveCfg = Release|Any CPU
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,5 +155,6 @@ Global
 		{3DCA24E1-E4A7-45A7-BB8D-590F51181987} = {3E058E5A-D0B8-47A0-B849-721DB27106DE}
 		{DE2A764C-D23C-441B-A702-31248061F569} = {3E058E5A-D0B8-47A0-B849-721DB27106DE}
 		{5C853E42-DC13-4091-B557-2CD7772AD590} = {3E058E5A-D0B8-47A0-B849-721DB27106DE}
+		{27F5DD52-01CB-4C5E-ADB8-2859B8BA87C6} = {22BAF98C-8415-17C4-B26A-D537657BC863}
 	EndGlobalSection
 EndGlobal

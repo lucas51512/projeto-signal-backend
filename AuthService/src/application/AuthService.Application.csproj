@@ -12,4 +12,8 @@
     <Folder Include="Interfaces\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\domain\AuthService.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

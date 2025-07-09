@@ -4,12 +4,17 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>AuthService.Infra</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Configuration\" />
     <Folder Include="ExternalServices\" />
     <Folder Include="Persistence\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\domain\AuthService.Domain.csproj" />
   </ItemGroup>
 
 </Project>

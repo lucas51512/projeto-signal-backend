@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "AuthService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/AuthService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthService.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AuthService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../domain/AuthService.Domain.csproj",
+      "msbuildProject": "../domain/AuthService.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "AuthService.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\lucas\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\domain\\AuthService.Domain.csproj": {
+              "projectPath": "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\domain\\AuthService.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -7,7 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\infra\AuthService.Infra.csproj" />
+      <ProjectReference Include="..\AuthService.Infra.IoC\AuthService.Infra.IoC.csproj" />
+      <ProjectReference Include="..\src\infra\AuthService.Infra.Data.csproj" />
     </ItemGroup>
 
 </Project>

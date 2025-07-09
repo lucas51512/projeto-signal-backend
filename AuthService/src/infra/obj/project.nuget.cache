@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p5PWzKeybms=",
+  "dgSpecHash": "ONzH/aWyzqk=",
   "success": true,
-  "projectFilePath": "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\infra\\AuthService.Infra.csproj",
+  "projectFilePath": "C:\\projetos\\projeto-signal\\projeto-signal-backend\\AuthService\\src\\infra\\AuthService.Infra.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
